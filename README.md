@@ -5,7 +5,7 @@
 
   <!-- Animated Typing Telemetry -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=false&width=750&height=50&lines=▶+Real-Time+Collaborative+Living+Space+Manager;▶+Zero-Latency+Firebase+Synchronization;▶+Modern+Bento-Box+Material+Design+Architecture" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=false&width=800&height=50&lines=%E2%96%B6+Real-Time+Collaborative+Living+Space+Manager;%E2%96%B6+Zero-Latency+Firebase+Synchronization;%E2%96%B6+Modern+Bento-Box+Material+Design+Architecture" alt="Typing SVG" />
   </a>
 
   <!-- Tech Stack Badges -->
