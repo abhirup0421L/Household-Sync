@@ -61,3 +61,23 @@ Built entirely with Jetpack Compose, the application adheres to a highly polishe
 *   **UI Framework:** 100% Declarative UI via Jetpack Compose.
 
 ---
+---
+
+<div align="center">
+
+  <!-- Animated Cyber Wave Footer -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,20,30,40,50&height=140&section=footer&animation=twinkling" width="100%" alt="Footer Wave" />
+
+  <br>
+
+  <!-- Animated Typing Signature -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=false&width=500&height=40&lines=%E2%9C%A8+Engineered+with+clean+code+%26+passion;%E2%9A%A1+Built+by+Abhirup+Das" alt="Animated Signature" />
+  </a>
+
+  <br>
+
+  <!-- Live Visitor Counter Badge -->
+  <img src="https://komarev.com/ghpvc/?username=abhirup0421L-household-sync&color=00f0ff&style=for-the-badge&label=PROJECT+TELEMETRY" alt="Visitor Counter" />
+
+</div>
