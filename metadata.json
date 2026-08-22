@@ -1,0 +1,6 @@
+{
+  "name": "Shared Household Sync",
+  "description": "A household management dashboard for families and roommates to sync groceries, chores, and shared expenses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
