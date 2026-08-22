@@ -1,22 +1,63 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+  <!-- Dynamic Animated Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,20,30,40,50&height=250&section=header&text=HOUSEHOLD%20SYNC&fontSize=65&fontAlignY=35&animation=twinkling&fontColor=FFFFFF" width="100%" alt="Household Sync Header" />
+
+  <!-- Animated Typing Telemetry -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=false&width=750&height=50&lines=▶+Real-Time+Collaborative+Living+Space+Manager;▶+Zero-Latency+Firebase+Synchronization;▶+Modern+Bento-Box+Material+Design+Architecture" alt="Typing SVG" />
+  </a>
+
+  <!-- Tech Stack Badges -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+    <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+    <img src="https://img.shields.io/badge/UI-Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose" />
+    <img src="https://img.shields.io/badge/Backend-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  </p>
+
+  <p align="center">
+    <strong>A centralized, multiplayer hub for roommates, families, and couples to manage shared expenses, chores, and groceries with absolute zero latency.</strong>
+  </p>
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🪐 System Architecture & Features
 
-View your app in AI Studio: https://ai.studio/apps/48fcd7f9-b45f-4e73-91d7-c5bd0c4125f8
+Household Sync is engineered to eliminate the friction of shared living. Powered entirely by a **real-time Firebase backend**, any state change—from checking off a grocery item to logging a utility bill—is instantly synchronized across all authenticated devices in the network.
 
-## Run Locally
+### 🏠 Multi-Household Matrix
+Designed for dynamic living situations, users are never restricted to a single environment. 
+*   **Secure Room Codes:** Generate or join households using a unique 6-character encrypted access code.
+*   **Context Switching:** Seamlessly toggle between multiple active households (e.g., Family Home, College Dorm, Vacation Group) directly from the centralized House Selector dashboard.
+*   **Granular Access Control:** strict Admin vs. Member roles. Admins retain full control to manage users or terminate the house, while members can easily invite others or detach themselves from the group.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+### ✅ Task & Grocery Telemetry
+A unified, intelligent ledger for tracking shared responsibilities and physical inventory.
+*   **Attribution Engine:** Every task and grocery item logs its creator and allows for specific user assignment, ensuring complete transparency.
+*   **Smart State Sorting:** Active tasks remain prioritized at the top of the UI.
+*   **Fluid Resolution:** Upon completion, tasks trigger a smooth Compose animation, dynamically migrating to a segregated "Completed" zone to maintain an uncluttered active dashboard.
 
+### 💰 Fiscal Vault & Expense Splitter
+A robust financial tracker designed to handle complex shared economics without requiring third-party calculators.
+*   **Custom Ledger:** Track rent, utilities, and shared receipts.
+*   **Asymmetric Splitting:** Granular control over expense distribution. Specify exactly who paid the initial cost and select which specific subset of house members are responsible for the split (e.g., splitting a grocery bill among 3 out of 4 roommates).
+*   **In-App Computation:** Features a natively integrated calculator accessible via a fluid Bottom Sheet, allowing users to crunch receipt numbers instantly without context-switching to other apps.
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+### 🎨 Bento-Box UI & Localization
+Built entirely with Jetpack Compose, the application adheres to a highly polished, modern "Bento Box" design philosophy.
+*   **Adaptive Theming:** Comprehensive Light and Dark mode support featuring custom, high-contrast color palettes optimized for day and night viewing.
+*   **Global Localization:** Dynamic customization options allow users to toggle preferred UI languages and local currency symbols ($, €, £, ₹) directly from the configuration settings.
+
+---
+
+## 🛠️ Technical Implementation
+
+*   **Architecture:** MVVM (Model-View-ViewModel) enforcing clean state management and separation of concerns.
+*   **Concurrency:** Kotlin Coroutines and StateFlows utilized for non-blocking UI rendering and asynchronous database listening.
+*   **Database:** Firebase Firestore enabling real-time WebSockets for instantaneous cross-device UI updates.
+*   **UI Framework:** 100% Declarative UI via Jetpack Compose.
+
+---
